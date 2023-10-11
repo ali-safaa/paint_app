@@ -1,0 +1,21 @@
+div{
+    background-color: rgb(232, 223, 223);
+    width: fit-content;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+li{
+    padding: 0 10px;
+}
+
+.active{
+    color: blue;
+}

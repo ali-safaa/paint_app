@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 0; padding: 0;">
+    <div>
+        <ul>
+            <li class="tools" id="rect">
+                <img width="30" height="30" src="/images/rect.png" alt="">
+                <label>rect</label>
+            </li>
+            <li class="tools" id="circle">
+                <img width="30" height="30" src="/images/circle.png" alt="">
+                <label>circle</label>
+            </li>
+            <li class="tools" id="brush">
+                <img width="30" height="30" src="/images/brush.png" alt="">
+                <label>brush</label>
+            </li>
+            <li>
+                <label style="font-size: 13px;">size of brush</label>
+                <input class="range" type="range" min="1" max="50" value="0">
+            </li>
+        </ul>
+    </div>
+    <canvas></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
